@@ -28,7 +28,6 @@ func show_game_over() -> void:
 func update_score(score) -> void:
 	$ScoreLabel.text = str(score)
 
-
 func _on_start_button_pressed() -> void:
 	$StartButton.hide()
 	start_game.emit()
